@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Ranchers&family=Recursive:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Ranchers&family=Shadows+Into+Light&display=swap');
 
 :root {
   --primary-color: rgb(255, 92, 92);
@@ -58,6 +58,7 @@ h2 {
 nav {
   z-index: 10;
   position: fixed;
+  font-family: Shadows Into Light, sans-serif;
   font-size: 24px;
   letter-spacing: 3px;
   padding: 25px;
