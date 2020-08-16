@@ -8,6 +8,17 @@ const textBox = document.getElementById('text-box');
 
 // Dark Mode Styles
 function darkMode() {
+  nav.style.backgroundColor = 'rgb(255 255 255 / 50%)';
+  textBox.style.backgroundColor = 'rgb(0 0 0 / 50%';
+  toggleIcon.children[0].textContent = '';
+  toggleIcon.children[1].classList.remove('fa-sun');
+  toggleIcon.children[1].classList.add('fa-moon');
+  image1.src = 'img/undraw_proud_coder_dark.svg';
+  image2.src = 'img/undraw_feeling_proud_dark.svg';
+  image3.src = 'img/undraw_conceptual_idea_dark.svg';
+}
+// Light Mode Styles
+function lightMode() {
   nav.style.backgroundColor = 'rgb(0 0 0 / 50%)';
   textBox.style.backgroundColor = 'rgb(255 255 255 / 50%';
   toggleIcon.children[0].textContent = 'Dark Mode';
